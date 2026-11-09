@@ -17,7 +17,8 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"))
             // Kişisel kullanım: release APK da debug anahtarıyla imzalanır, ek ayar gerekmez.
             signingConfig = signingConfigs.getByName("debug")
         }

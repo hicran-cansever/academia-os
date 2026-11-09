@@ -19,7 +19,7 @@ jobs:
         run: |
           chmod +x gradlew
           set +e
-          ./gradlew assembleDebug --no-daemon --stacktrace --console=plain 2>&1 | tee build.log
+          ./gradlew assembleRelease --no-daemon --stacktrace --console=plain 2>&1 | tee build.log
           echo ${PIPESTATUS[0]} > status.txt
           exit 0
       - name: APK ve kaydi 'apk' dalina koy
@@ -27,7 +27,7 @@ jobs:
         run: |
           mkdir out
           cp build.log status.txt out/
-          cp app/build/outputs/apk/debug/app-debug.apk out/AcademiaOS.apk 2>/dev/null || true
+          cp app/build/outputs/apk/release/app-release.apk out/AcademiaOS.apk 2>/dev/null || true
           cd out
           git init -q -b apk
           git config user.name "github-actions"
