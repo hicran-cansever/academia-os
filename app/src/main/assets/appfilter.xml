@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Moodreader: paket adı bilinmiyor; uygulamadaki "İkon eşleştirme listesi"nden alıp buraya ekle. -->
+    <item component="ComponentInfo{com.samsung.android.app.notes/com.samsung.android.app.notes.memolist.MemoListActivity}" drawable="icon_samsung_notes" />
+    <item component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" drawable="icon_samsung_calendar" />
+    <item component="ComponentInfo{com.samsung.android.app.reminder/com.samsung.android.app.reminder.ui.LaunchMainActivity}" drawable="icon_samsung_reminder" />
+    <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.external.ui.MainActivity}" drawable="icon_my_files" />
+    <item component="ComponentInfo{com.sec.android.gallery3d/com.samsung.android.gallery.app.activity.GalleryActivity}" drawable="icon_gallery" />
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="icon_chrome" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="icon_youtube" />
+    <item component="ComponentInfo{com.flexcil.flexcilnote/com.flexcil.flexcilnote.MainActivity}" drawable="icon_flexcil" />
+    <item component="ComponentInfo{com.sec.android.app.shealth/com.samsung.android.app.shealth.home.HomeDashboardActivity}" drawable="icon_samsung_health" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="icon_settings" />
+    <item component="ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator}" drawable="icon_calculator" />
+    <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="icon_camera" />
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="icon_play_store" />
+    <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage}" drawable="icon_clock" />
+    <item component="ComponentInfo{com.sec.penup/com.sec.penup.ui.SplashActivity}" drawable="icon_penup" />
+</resources>

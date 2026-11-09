@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+  <LinearLayout android:id="@+id/card" style="@style/W.Card" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="38dp" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="bottom">
+      <TextView android:id="@+id/tasks_title" style="@style/W.Title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Bugünün görevleri" />
+      <TextView android:id="@+id/tasks_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="serif" android:textSize="14sp" android:textColor="@color/muted" />
+    </LinearLayout>
+    <ProgressBar android:id="@+id/tasks_progress" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="6dp" android:layout_marginTop="10dp" android:layout_marginBottom="8dp" android:progressDrawable="@drawable/progress_green" android:max="100" />
+    <TextView android:id="@+id/tasks_empty" style="@style/W.Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/muted" android:visibility="gone" android:text="Görev eklemek için dokun" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="vertical">
+<LinearLayout android:id="@+id/task_row0" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:minHeight="32dp" android:orientation="horizontal" android:gravity="center_vertical">
+      <ImageView android:id="@+id/task_check0" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/check_off" android:importantForAccessibility="no" />
+      <TextView android:id="@+id/task_text0" style="@style/W.Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:maxLines="1" android:ellipsize="end" />
+    </LinearLayout>
+<LinearLayout android:id="@+id/task_row1" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:minHeight="32dp" android:orientation="horizontal" android:gravity="center_vertical">
+      <ImageView android:id="@+id/task_check1" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/check_off" android:importantForAccessibility="no" />
+      <TextView android:id="@+id/task_text1" style="@style/W.Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:maxLines="1" android:ellipsize="end" />
+    </LinearLayout>
+<LinearLayout android:id="@+id/task_row2" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:minHeight="32dp" android:orientation="horizontal" android:gravity="center_vertical">
+      <ImageView android:id="@+id/task_check2" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/check_off" android:importantForAccessibility="no" />
+      <TextView android:id="@+id/task_text2" style="@style/W.Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:maxLines="1" android:ellipsize="end" />
+    </LinearLayout>
+<LinearLayout android:id="@+id/task_row3" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:minHeight="32dp" android:orientation="horizontal" android:gravity="center_vertical">
+      <ImageView android:id="@+id/task_check3" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/check_off" android:importantForAccessibility="no" />
+      <TextView android:id="@+id/task_text3" style="@style/W.Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:maxLines="1" android:ellipsize="end" />
+    </LinearLayout>
+<LinearLayout android:id="@+id/task_row4" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:minHeight="32dp" android:orientation="horizontal" android:gravity="center_vertical">
+      <ImageView android:id="@+id/task_check4" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/check_off" android:importantForAccessibility="no" />
+      <TextView android:id="@+id/task_text4" style="@style/W.Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:maxLines="1" android:ellipsize="end" />
+    </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+  <ImageView android:id="@+id/tasks_bird" android:layout_width="wrap_content" android:layout_height="64dp" android:layout_gravity="top|end" android:layout_marginStart="14dp" android:layout_marginEnd="14dp" android:adjustViewBounds="true" android:scaleType="fitCenter" android:src="@drawable/w_squirrel" android:importantForAccessibility="no" />
+</FrameLayout>

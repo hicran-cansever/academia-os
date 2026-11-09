@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <version>1</version>
+    <category title="Academia OS" />
+    <item drawable="icon_samsung_notes" />
+    <item drawable="icon_samsung_calendar" />
+    <item drawable="icon_samsung_reminder" />
+    <item drawable="icon_my_files" />
+    <item drawable="icon_gallery" />
+    <item drawable="icon_chrome" />
+    <item drawable="icon_youtube" />
+    <item drawable="icon_moodreader" />
+    <item drawable="icon_flexcil" />
+    <item drawable="icon_samsung_health" />
+    <item drawable="icon_settings" />
+    <item drawable="icon_calculator" />
+    <item drawable="icon_camera" />
+    <item drawable="icon_play_store" />
+    <item drawable="icon_clock" />
+    <item drawable="icon_penup" />
+</resources>

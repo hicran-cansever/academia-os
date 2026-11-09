@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Academia OS</string>
+    <string name="w_clock">Academia · Saat</string>
+    <string name="w_calendar">Academia · Takvim</string>
+    <string name="w_tasks">Academia · Görevler</string>
+    <string name="w_study">Academia · Çalışma</string>
+    <string name="w_reading">Academia · Okuma</string>
+    <string name="w_focus">Academia · Odak</string>
+    <string name="w_desc">Academia OS widget\'ı</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+  <LinearLayout android:id="@+id/card" style="@style/W.Card" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="34dp" android:orientation="horizontal" android:gravity="center_vertical">
+    <ImageView android:layout_width="58dp" android:layout_height="92dp" android:src="@drawable/book_cover" android:importantForAccessibility="no" />
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="16dp" android:orientation="vertical">
+      <TextView style="@style/W.Cap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Şu an okunan" />
+      <TextView android:id="@+id/read_title" style="@style/W.Title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:ellipsize="end" />
+      <TextView android:id="@+id/read_author" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="serif" android:textStyle="italic" android:textSize="13sp" android:textColor="@color/ivory_soft" android:maxLines="1" />
+      <ProgressBar android:id="@+id/read_progress" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="6dp" android:layout_marginTop="12dp" android:progressDrawable="@drawable/progress_coral" android:max="100" />
+      <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:orientation="horizontal">
+        <TextView android:id="@+id/read_pct" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:fontFamily="serif" android:textSize="12.5sp" android:textColor="@color/muted" />
+        <TextView android:id="@+id/read_today" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="serif" android:textSize="12.5sp" android:textColor="@color/muted" />
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+  <ImageView android:id="@+id/read_bird" android:layout_width="wrap_content" android:layout_height="64dp" android:layout_gravity="top|end" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:adjustViewBounds="true" android:scaleType="fitCenter" android:src="@drawable/w_trogon" android:importantForAccessibility="no" />
+</FrameLayout>

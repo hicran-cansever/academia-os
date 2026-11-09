@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Academia OS · Orman Gecesi -->
+    <color name="ink_bg">#0D0F0D</color>
+    <color name="surface">#161915</color>
+    <color name="surface_raised">#1F241E</color>
+    <color name="ivory">#EFE6D2</color>
+    <color name="ivory_soft">#CFC5AF</color>
+    <color name="muted">#B3A992</color>
+    <color name="muted_dim">#9C937F</color>
+    <color name="gold">#C9A86A</color>
+    <color name="gold_line">#42C9A86A</color>
+    <color name="emerald">#5FB98A</color>
+    <color name="coral">#E57A5E</color>
+    <color name="amber">#E8A945</color>
+    <color name="kingfisher">#6BB8DC</color>
+    <color name="lavender">#B7A6D6</color>
+    <color name="burgundy">#6B3343</color>
+    <!-- Gece Mavisi varyantı -->
+    <color name="navy_bg">#101326</color>
+    <color name="navy_surface">#16192E</color>
+</resources>

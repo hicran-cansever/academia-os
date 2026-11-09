@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AcademiaOS" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorOnPrimary">@color/ink_bg</item>
+        <item name="colorSecondary">@color/emerald</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/ivory</item>
+        <item name="android:colorBackground">@color/ink_bg</item>
+        <item name="android:statusBarColor">@color/ink_bg</item>
+        <item name="android:navigationBarColor">@color/ink_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="W" />
+    <style name="W.Cap">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.18</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+    <style name="W.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/ivory</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+    <style name="W.Body">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/ivory</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+    <style name="W.Card">
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@drawable/card_forest</item>
+    </style>
+</resources>
